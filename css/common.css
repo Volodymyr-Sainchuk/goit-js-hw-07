@@ -35,4 +35,50 @@ body {
   height: 40px;
   border: 1px solid #808080;
   border-radius: 4px;
+  padding: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  list-style: none;
+}
+.classList-style {
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+.item {
+  list-style: none;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.btn-login {
+  align-items: center;
+  padding-top: 10px;
+  max-width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  border: 0px;
+  color: #fafafa;
+  margin-top: 8px;
+}
+.input {
+  min-height: 40px;
+  margin-bottom: 8px;
+}
+.login-items-form {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.change-color {
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #4e75ff;
+  color: #fafafa;
+}
+.widget {
+  text-align: center;
 }

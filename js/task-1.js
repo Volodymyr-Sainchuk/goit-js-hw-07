@@ -10,4 +10,8 @@ foundLi.forEach((li) => {
   list.forEach((item) => {
     item.classList.add("list-style");
   });
+  const categoryList = document.querySelectorAll("h2");
+  categoryList.forEach((elem) => {
+    elem.classList.add("classList-style");
+  });
 });
