@@ -17,7 +17,6 @@ login.addEventListener("submit", (event) => {
 });
 const btnForCs = login.lastElementChild;
 btnForCs.classList.add("btn-login");
-// const loginCs = document.querySelectorAll(".login-form");
 const loginCs = Array.from(login.children);
 loginCs.forEach((item) => {
   item.classList.add("login-items-form");
